@@ -33,7 +33,7 @@ public class CodeBreakerTest {
 	}	
 	
 	@Test
-	public void containsTwoInDiferent_position() {
+	public void containsTwoInDiferentPosition() {
 		String answer = codeBreaker.guess("4891");
 		assertEquals("__", answer);
 	}
